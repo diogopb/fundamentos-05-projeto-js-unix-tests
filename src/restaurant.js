@@ -22,9 +22,10 @@ const createMenu = (object) => {
                 }
             });
             return totalValue + (totalValue * 0.1);
-        },
+            },
+        };
+        return menu;
     };
-    return menu;
-};
-    console.log(createMenu());
+    
+console.log(createMenu());
 module.exports = createMenu;
